@@ -1,0 +1,66 @@
+# IDE
+.cursor/
+*.cursor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter (if used locally)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Example scripts regenerate these plots locally; reference PNGs stay tracked
+examples/*/figures/results_deblurring_*.png
+
+# Archives / OS junk
+__MACOSX/
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+
+# Plan / local tooling
+*.plan.md
+agent-tools/
+agent-transcripts/

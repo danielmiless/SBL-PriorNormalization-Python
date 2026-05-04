@@ -1,0 +1,11 @@
+# Editable install (recommended): pip install -e .
+# Core dependencies are declared in pyproject.toml.
+
+numpy>=1.20,<3
+scipy>=1.7
+matplotlib>=3.4
+pylops>=2.0
+
+# TRIPS-Py is required for the deblurring examples but is not always published on PyPI
+# with the same layout as the GitHub repo. Clone https://github.com/mpasha3/trips-py
+# and set TRIPS_PY_ROOT to that directory (see README).
